@@ -1,3 +1,5 @@
+//Reboot before grid settings
+@import "./bootstrap-reboot.scss";
 $breakpoints: (
   "xs": 0,
   "sm": 576,
@@ -16,7 +18,5 @@ $breakpoints: (
   }
 }
 @include generate-breakpoints($breakpoints: $breakpoints);
-
 //Then import bootstrap custom grid
 @import "./bootstrap-grid.scss";
-@import "./bootstrap-reboot.scss";
