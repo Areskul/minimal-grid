@@ -1,0 +1,22 @@
+$breakpoints: (
+  "xs": 0,
+  "sm": 576,
+  "md": 768,
+  "lg": 992,
+  "xl": 1200,
+) !default;
+@mixin generate-variable($name, $value) {
+  --#{$name}: #{$value};
+}
+@mixin generate-breakpoints($breakpoints) {
+  :root {
+    @each $name, $value in $breakpoints {
+      @include generate-variable($name, $value);
+    }
+  }
+}
+@include generate-breakpoints($breakpoints: $breakpoints);
+
+//Then import bootstrap custom grid
+@import "./bootstrap-grid.scss";
+@import "./bootstrap-reboot.scss";

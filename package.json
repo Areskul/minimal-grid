@@ -1,0 +1,9 @@
+{
+  "name": "@areskul/minimal-grid",
+  "version": "1.0.0",
+  "private": false,
+  "main": "grid.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
