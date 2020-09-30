@@ -24,27 +24,27 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .container {
-    max-width: calc(var(--sm) * 0.9375);
+    max-width: calc($sm * 0.9375);
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .container {
-    max-width: calc(var(--md) * 0.9375);
+    max-width: calc($md * 0.9375);
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .container {
-    max-width: calc(var(--lg) * 0.9375);
+    max-width: calc($lg * 0.9375);
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .container {
-    max-width: calc(var(--xl) * 0.9375);
+    max-width: calc($xl * 0.9375);
   }
 }
 
@@ -60,37 +60,37 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .container,
   .container-sm {
-    max-width: calc(var(--sm) * 0.9375);
+    max-width: calc($sm * 0.9375);
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .container,
   .container-sm,
   .container-md {
-    max-width: calc(var(--sm) * 0.9375);
+    max-width: calc($sm * 0.9375);
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .container,
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: calc(var(--lg) * 0.9375);
+    max-width: calc($lg * 0.9375);
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .container,
   .container-sm,
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: calc(var(--lg) * 0.9375);
+    max-width: calc($lg * 0.9375);
   }
 }
 
@@ -432,7 +432,7 @@ html {
   margin-left: 91.666667%;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -634,7 +634,7 @@ html {
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -836,7 +836,7 @@ html {
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1038,7 +1038,7 @@ html {
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1278,7 +1278,7 @@ html {
   display: inline-flex !important;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .d-sm-none {
     display: none !important;
   }
@@ -1310,7 +1310,7 @@ html {
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .d-md-none {
     display: none !important;
   }
@@ -1342,7 +1342,7 @@ html {
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .d-lg-none {
     display: none !important;
   }
@@ -1374,7 +1374,7 @@ html {
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .d-xl-none {
     display: none !important;
   }
@@ -1608,7 +1608,7 @@ html {
   align-self: stretch !important;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .flex-sm-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -1747,7 +1747,7 @@ html {
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .flex-md-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -1886,7 +1886,7 @@ html {
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .flex-lg-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -2025,7 +2025,7 @@ html {
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .flex-xl-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -2596,7 +2596,7 @@ html {
   margin-left: auto !important;
 }
 
-@media (min-width: var(--sm)) {
+@media (min-width: $sm) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -2941,7 +2941,7 @@ html {
   }
 }
 
-@media (min-width: var(--md)) {
+@media (min-width: $md) {
   .m-md-0 {
     margin: 0 !important;
   }
@@ -3286,7 +3286,7 @@ html {
   }
 }
 
-@media (min-width: var(--lg)) {
+@media (min-width: $lg) {
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -3631,7 +3631,7 @@ html {
   }
 }
 
-@media (min-width: var(--xl)) {
+@media (min-width: $xl) {
   .m-xl-0 {
     margin: 0 !important;
   }
