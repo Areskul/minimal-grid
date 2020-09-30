@@ -66,7 +66,8 @@ export const breakpoints = {
       let value = window
         .getComputedStyle(this.$root.$el)
         .getPropertyValue(`--${name}`);
-      value = Number(value);
+      //remove px value
+      value = Number(value.slice(0, -2));
       return value;
     },
   },
