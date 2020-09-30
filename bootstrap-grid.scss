@@ -60,37 +60,37 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: var(--sm)) {
   .container,
   .container-sm {
-    max-width: 540px;
+    max-width: calc(var(--sm) * 0.9375);
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: var(--md)) {
   .container,
   .container-sm,
   .container-md {
-    max-width: 720px;
+    max-width: calc(var(--sm) * 0.9375);
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: var(--lg)) {
   .container,
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: 960px;
+    max-width: calc(var(--lg) * 0.9375);
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: var(--xl)) {
   .container,
   .container-sm,
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1140px;
+    max-width: calc(var(--lg) * 0.9375);
   }
 }
 
