@@ -26,25 +26,25 @@ html {
 
 @media (min-width: $sm) {
   .container {
-    max-width: calc($sm * 0.9375);
+    max-width: calc(var(--sm) * 0.9375);
   }
 }
 
 @media (min-width: $md) {
   .container {
-    max-width: calc($md * 0.9375);
+    max-width: calc(var(--md) * 0.9375);
   }
 }
 
 @media (min-width: $lg) {
   .container {
-    max-width: calc($lg * 0.9375);
+    max-width: calc(var(--lg) * 0.9375);
   }
 }
 
 @media (min-width: $xl) {
   .container {
-    max-width: calc($xl * 0.9375);
+    max-width: calc(var(--xl) * 0.9375);
   }
 }
 
@@ -63,7 +63,7 @@ html {
 @media (min-width: $sm) {
   .container,
   .container-sm {
-    max-width: calc($sm * 0.9375);
+    max-width: calc(var(--sm) * 0.9375);
   }
 }
 
@@ -71,7 +71,7 @@ html {
   .container,
   .container-sm,
   .container-md {
-    max-width: calc($sm * 0.9375);
+    max-width: calc(var(--md) * 0.9375);
   }
 }
 
@@ -80,7 +80,7 @@ html {
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: calc($lg * 0.9375);
+    max-width: calc(var(--lg) * 0.9375);
   }
 }
 
@@ -90,7 +90,7 @@ html {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: calc($lg * 0.9375);
+    max-width: calc(var(--xl) * 0.9375);
   }
 }
 
